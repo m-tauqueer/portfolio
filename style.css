@@ -26,8 +26,6 @@ nav {
     margin: 10px;
     border-radius: 10px;
     position: fixed;
-    /* top: 0;
-    left: 0; */
     z-index: 100;
     padding: 15px 50px;
     background-color: rgba(18, 18, 19, 0.6);
@@ -675,6 +673,17 @@ nav {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
 }
+
+.getintouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
 
 .contact-label {
     font-weight: 600;
