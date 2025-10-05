@@ -21,7 +21,7 @@ nav {
     height: 60px;
     width: calc(100% - 20px);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     margin: 10px;
     border-radius: 10px;
@@ -755,6 +755,8 @@ nav {
         display: flex;
         justify-content: flex-end;
         padding: 15px 20px;
+        background: none;
+        backdrop-filter: blur(0px);
     }
 
     .hamburger-label {
