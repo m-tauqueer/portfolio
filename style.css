@@ -294,7 +294,7 @@ nav {
 
 .resume-btn {
     display: inline-block;
-    background: linear-gradient(90deg, black, darkgrey);
+    background: linear-gradient(35deg, black, darkgrey);
     color: white;
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
@@ -311,6 +311,7 @@ nav {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(231, 60, 126, 0.4);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(145, 43, 63, 0.4);
 }
 
 /* Education Section */
@@ -581,7 +582,7 @@ nav {
 
 .github-btn {
     display: inline-block;
-    background: linear-gradient(90deg, black, grey);
+    background: linear-gradient(30deg, grey,black );
     color: white;
     padding: 12px 25px;
     border-radius: 25px;
@@ -592,6 +593,7 @@ nav {
 
 .github-btn:hover {
     transform: translateY(-2px);
+    border: 1px solid rgba(145, 43, 63, 0.4);
     box-shadow: 0 5px 15px rgba(145, 43, 63, 0.4);
 }
 
@@ -718,7 +720,7 @@ nav {
 
 .social-btn {
     display: inline-block;
-    background-color: rgba(18, 18, 19, 0.8);
+    background-color: black;
     color: white;
     padding: 12px 25px;
     border-radius: 25px;
@@ -729,10 +731,11 @@ nav {
 }
 
 .social-btn:hover {
-    border: 1px solid papayawhip;
+    border: 1px solid rgba(145, 43, 63, 0.4);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(231, 60, 126, 0.3);
-    color: #ca9dae;
+    /* color: #ca9dae; */
+    
 }
 
 /* Footer */
